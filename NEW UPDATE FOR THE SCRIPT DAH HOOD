@@ -540,6 +540,8 @@ local function Initiate()
 				end
 			elseif Message == ".setup bank" then
 				Setup("Bank")
+            elseif Message == ".setup db1v1" then
+				Setup("DB1V1")
 			elseif Message == ".setup admin" then
 				Setup("Admin")
 			elseif Message == ".setup klub" then
