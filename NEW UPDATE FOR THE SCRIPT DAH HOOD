@@ -545,7 +545,7 @@ local function Initiate()
 			elseif Message == ".setup admin" then
 				Setup("Admin")
 			elseif Message == ".setup club" then
-				Setup("Klub")
+				Setup("Club")
 			elseif Message == ".setup vault" then
 				Setup("Vault")
 			elseif Message == ".setup train" then
