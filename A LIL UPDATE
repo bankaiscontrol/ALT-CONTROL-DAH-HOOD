@@ -576,6 +576,10 @@ local function Initiate()
 				Setup("School")
 			elseif Message == ".setup train" then
 				Setup("Train")
+			elseif Message == ".setup rev" then
+				Setup("Rev")
+			elseif Message == ".setup backschool" then
+				Setup("BackSchool")
 			elseif Message == ".wallet on" then
 				ShowWallet()
 			elseif Message == ".wallet off" then
